@@ -1,4 +1,4 @@
-# ECAS Hands On (Demo) 14.09.2018
+# ECAS Hands On (Demo) 14.09.2018 (Draft)
 
 The ENES Climate Analytics Service (ECAS) will enable scientific end-users to perform data analysis experiments on large volumes of climate data, by exploiting a PID-enabled, server-side, and parallel approach.
 
@@ -14,6 +14,11 @@ During this Hands On session, we will demonstrate how to use the *ECAS* service.
 - Compute and visualize **climate indices**
 - Share files with B2DROP (**experimental?**)
 
+
+## Organization
+
+* Please fill in the evaluation forms at the end of the session and give them nack to the trainers.
+* Link to this training is [here](https://github.com/ECAS-Lab/ecas-training/blob/master/ECAS_HandsOn_ESIWACE.md)
 ## Setup
 
 **ECAS/ECASLab** is deployed on two sites:
@@ -33,14 +38,14 @@ If you haven't registered yet, pick one of the default accounts (**not recommand
 
 **B2DROP shared repository** https://b2drop.eudat.eu/s/gDyJjMeJ2Xiapwi
 
-## Explore Jupyter environment
+## Explore the Jupyter environment
 
 When you log in to JupyterHub, a workspace is created for you with following directories:
 
 - **data:** input data required for the workflows
 - **notebooks:** implemented use cases
 - **workflows:** script-based workflows
-- **quickstart:** How to start working with **ECAS**
+- **quickstart:** how to start working with **ECAS**
 
 
 
