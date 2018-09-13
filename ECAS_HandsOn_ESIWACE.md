@@ -12,12 +12,12 @@ During this Hands On session, we will demonstrate how to use the *ECAS* service.
 - How to access *ECAS* and log in to the JupyterHub instance
 - Open and execute jupyter notebooks
 - Compute and visualize **climate indices**
-- Share files with B2DROP (**experimental?**)
+
 
 
 ## Organization
 
-* Please fill in the evaluation forms at the end of the session and give them nack to the trainers.
+* Please fill in the evaluation forms at the end of the session and give them back to the trainers.
 * Link to this training is [here](https://github.com/ECAS-Lab/ecas-training/blob/master/ECAS_HandsOn_ESIWACE.md)
 ## Setup
 
@@ -36,8 +36,6 @@ If you haven't registered yet, pick one of the default accounts (**not recommand
 
 ---
 
-**B2DROP shared repository** https://b2drop.eudat.eu/s/gDyJjMeJ2Xiapwi
-
 ## Explore the Jupyter environment
 
 When you log in to JupyterHub, a workspace is created for you with following directories:
@@ -45,17 +43,21 @@ When you log in to JupyterHub, a workspace is created for you with following dir
 - **data:** input data required for the workflows
 - **notebooks:** implemented use cases
 - **workflows:** script-based workflows
-- **quickstart:** how to start working with **ECAS**
+- **quickstart:** how to instantiate clients 
 
 
 
 ## Use cases: Computing Climate Indices
 
-### 1. Tropical Nights
+
+### 1. Subset/Aggregate (simple)
+
+### 2. Tropical Nights (medium)
 
 Starting from the daily minimum temperature (1980-1990) TN, the Tropical Nights index is the number of days where TN > T (T is a reference temperature, e.g. 20°C)
 
-### 2. Daily Temperature Range (DTR)
+
+### 3. Daily Temperature Range (DTR) (complex)
 
 The daily temperature range is the arithmetic difference between daily maximum and daily minimum temperature.
 
@@ -78,4 +80,4 @@ Useful information:
 + Access and Log in to *ECAS/ECASLab*
 + Compute climate indices
 + Visualize results
-+ Share files with B2DROP
+
