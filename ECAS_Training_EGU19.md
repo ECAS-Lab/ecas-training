@@ -1,4 +1,4 @@
-# Data Analysis made easy with the ENES Climate Analytics Service (ECAS) -- Draft
+# Data Analysis made easy with the ENES Climate Analytics Service (ECAS)
 
 ## Training on ECAS at EGU19
 
@@ -32,13 +32,13 @@ It aims at providing a paradigm shift for the European Network for Earth System 
 ---
 **NOTE**
 
-If you haven't registered yet, pick one of the default accounts (**not recommanded!**).
+If you haven't registered yet, pick one of the default accounts.
 
 ---
 
 ## Setup / useful links
 
-**ECAS Portal**
+**ECAS Portals**
 
 - DKRZ: https://ecaslab.dkrz.de
 - CMCC: https://ophidialab.cmcc.it
