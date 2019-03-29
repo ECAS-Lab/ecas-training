@@ -23,6 +23,12 @@ It aims at providing a paradigm shift for the European Network for Earth System 
 - (Optional) share results with B2DROP
 - (Optional) access federated data from One Data repository
 
+---
+**Note**
+
+The presentation slides can be found [here](https://github.com/ECAS-Lab/ecas-training/blob/master/egu_2019/slides/ecas_presentation_egu19.pdf)
+
+---
 
 ## Organization
 
