@@ -10,6 +10,7 @@ Co-conveners: **Donatello Elia**, **Fabrizio Antonio**, Alessandro D'Anca, Tobia
 
 Wed, 10 Apr, 08:30–10:15 (105 mins) Room -2.31
 
+
 The ENES Climate Analytics Service (ECAS) enables scientific end-users to perform data analysis experiments on large volumes of climate data, by exploiting a PID-enabled, server-side, and parallel approach.
 
 It aims at providing a paradigm shift for the European Network for Earth System Modelling (ENES) community with a strong focus on data intensive analysis, provenance management, and server-side approaches as opposed to the current ones mostly client-based, sequential and with limited/missing end-to-end analytics workflow/provenance capabilities.
@@ -17,10 +18,10 @@ It aims at providing a paradigm shift for the European Network for Earth System 
 
 ## Plan
 - How to access *ECAS* and log in to the JupyterHub instance at DKRZ/CMCC
-- Open and execute jupyter notebooks
+- Open and execute Jupyter notebooks
 - Compute and visualize **climate indices**
 - (Optional) share results with B2DROP
-
+- (Optional) access federated data from One Data repository
 
 
 ## Organization
@@ -32,7 +33,7 @@ It aims at providing a paradigm shift for the European Network for Earth System 
 ---
 **NOTE**
 
-If you haven't registered yet, pick one of the default accounts.
+If you have not registered yet, ask the organizers for a default account.
 
 ---
 
@@ -41,9 +42,10 @@ If you haven't registered yet, pick one of the default accounts.
 **ECAS Portals**
 
 - DKRZ: https://ecaslab.dkrz.de
-- CMCC: https://ophidialab.cmcc.it
+- CMCC: https://ecaslab.cmcc.it
 
 **ECASLab / JupyterHub** is deployed on two sites:
+
 - DKRZ: https://ecaslab.dkrz.de/jupyter/
 - CMCC: https://ecaslab.cmcc.it/jupyter/
 
@@ -62,66 +64,57 @@ If you haven't registered yet, pick one of the default accounts.
 
 When you log in to JupyterHub, a workspace is created for you with following directories:
 
-- **data:** input data required for the workflows
-- **notebooks:** implemented use cases
-- **workflows:** script-based workflows
-- **quickstart:** how to instantiate clients 
-
+- **/data:** input data required for the workflows/notebooks
+- **/notebooks:** set of ready-to-use Jupyter Notebooks with the implemented use cases
+- **/workflows:** script-based workflows
+- **/quickstart:** quick guide showing how to use JupyterHub and instantiate terminals in ECASLab
 
 
 ## Demo
-All notebooks are available in the *notebooks* directory.
 
-### 1. Subset/Aggregate (simple)
+### 1. Notebook
 
-**Notebooks**
-* Aggregated_map.ipynb
-* Subsetted_map.ipynb
+All notebooks presented during the demo are available under the **/notebooks** directory in your jupyter workspace.
 
-### 2. Computing Climate Indices (e.g Tropical Nights) (medium)
+1. *Subsetted map (.ipynb)*
+2. *Tropical nights (.ipynb)* 
+3. (Optional) *Time Series Difference (.ipynb)*
 
-Starting from the daily minimum temperature (1980-1990) TN, the Tropical Nights index is the number of days where TN > T (T is a reference temperature, e.g. 20°C).
+### 2. Terminal
 
-**Notebook** Tropical+Nights.ipynb
+The Ophidia Terminal is a robust, comprehensive, effective and extremely usable client, developed with characteristics similar to the bash program present in almost all Unix-like environments. In fact, besides submitting the Ophidia operators, it provides history management, embedded command help/manual, operator/command auto-completion, aliases creation and output rendering features. 
 
-
-### 3. Daily Temperature Range (DTR) (complex)
-
-The daily temperature range is the arithmetic difference between daily maximum and daily minimum temperature.
-
-**Notebook** DTR.ipynb
+This demo will show examples of usage of the Ophidia Terminal and its main capabilities.
 
 ## Hands on
 
----
-**NOTE**
-
-All notebooks are available under /notebooks in your jupyter workspace.
-
----
-
-The following notebooks cover more details on data processing operations using ECAS/Ophidia.
-They provide a step-by-step instructions on how to use the Ophidia operators as well as the PyOPhidia library.
+The following notebook cover more details on data processing operations using ECAS/Ophidia:
 
 **Notebook** ECASLab-Training.ipynb
 
+It provides step-by-step instructions on how to use the Ophidia operators as well as the PyOphidia library.
+
+After the completion you can try to run the other notebooks available under the **/notebooks** folder or proceed with the following exercise.
+
+
 ## Exercise (Optional)
 
-Starting from the daily maximum temperature (1980-1990), the Summer Days index is the annual count of days number of days where TX (daily maximum temperature) > 25°C
+Starting from the daily maximum temperature, the Summer Days index is the annual count of days number of days where TX (daily maximum temperature) > 25°C
 
-Based on the definition, try to calculate the number of Summer Days.
+Based on the definition, try to calculate the number of Summer Days (you can start from the *Tropical_Nights.ipynb* notebook).
 
 Useful information:
-
-**Input NetCDF:** E63_kp40_198001_199012_T2m_daymax_merged.nc
-
+**Input NetCDF:** Same as *Tropical Nights* notebook
 **25°C:** 298.15 Kelvin
 
+---
+**NOTE**
+Once completed you can compare your implementation with the *Summer Days* notebook provided under the **/notebooks** folder. 
 
+---
 
-## Wraps-Up
+## Wraps Up
 
 + Access and Log in to *ECAS/ECASLab*
 + Compute climate indices
 + Visualize results
-
