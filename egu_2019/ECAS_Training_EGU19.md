@@ -65,6 +65,11 @@ If you have not registered yet, ask the organizers for a default account.
 - https://github.com/ECAS-Lab
 - https://github.com/OphidiaBigData/PyOphidia
 
+**Support**
+
+- ecas-support@cmcc.it
+- ecas-support@dkrz.de
+- https://gitter.im/ECAS-ECASLab/Lobby
 
 ## Explore the Jupyter environment
 
