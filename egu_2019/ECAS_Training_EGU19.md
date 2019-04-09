@@ -1,5 +1,6 @@
 # Data Analysis made easy with the ENES Climate Analytics Service (ECAS)
 
+
 ## Training on ECAS at EGU19
 
 Co-organized as ESSI1.18/GI2.15
@@ -16,11 +17,11 @@ The ENES Climate Analytics Service (ECAS) enables scientific end-users to perfor
 It aims at providing a paradigm shift for the European Network for Earth System Modelling (ENES) community with a strong focus on data intensive analysis, provenance management, and server-side approaches as opposed to the current ones mostly client-based, sequential and with limited/missing end-to-end analytics workflow/provenance capabilities.
 
 
-## Plan
+## Objectives
 - How to access *ECAS* and log in to the JupyterHub instance at DKRZ/CMCC
 - Open and execute Jupyter notebooks
 - Compute and visualize **climate indices**
-- (Optional) share results with B2DROP
+- (Optional) sharing results with ECAS
 - (Optional) access federated data from One Data repository
 
 ---
@@ -29,6 +30,15 @@ It aims at providing a paradigm shift for the European Network for Earth System 
 The presentation slides can be found [here](https://github.com/ECAS-Lab/ecas-training/blob/master/egu_2019/slides/ecas_presentation_egu19.pdf)
 
 ---
+
+## Outline
+
+- (15‘) Introduction
+- (10‘) Demo
+- (45‘) Hands on
+- (10‘) Additional ECAS features
+- (10‘) Wrap up
+
 
 ## Organization
 
