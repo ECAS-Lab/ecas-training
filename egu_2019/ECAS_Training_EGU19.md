@@ -125,7 +125,13 @@ Starting from the daily maximum temperature, the Summer Days index is the annual
 Based on the definition, try to calculate the number of Summer Days (you can start from the *Tropical_Nights.ipynb* notebook).
 
 Useful information:
-**Input NetCDF:** Same as *Tropical Nights* notebook
+**Input NetCDF:**
+
+E63_kp40_198001_199012_T2m_daymax_merged.nc
+
+tasmax_day_CMCC-CESM_rcp85_r1i1p1_20960101-21001231.nc
+
+
 **25°C:** 298.15 Kelvin
 
 ---
